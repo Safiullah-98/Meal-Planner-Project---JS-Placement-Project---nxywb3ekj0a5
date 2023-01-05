@@ -86,6 +86,17 @@ function generateMealPlan() {
   while (card.firstChild) {
     card.removeChild(card.firstChild);
   }
+  
+  //api
+  const apiKey="10ee35c31a784e73b406f9457ae38772", 
+        const url= `https://api.spoonacular.com/mealplanner/generate?timeFrame=day`
+  
+  
+  
+  
+  
+  
+  
   // Define data for each meal
   const meals = [
     {
